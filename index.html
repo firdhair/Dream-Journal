@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Dream Journal." />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Yesteryear&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Dream Journal</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="page">
+        <h1 class="title">Dream Journal</h1>
+        <button onclick="openForm()">add new journal</button>
+
+        <div class="journal-popup" id="myJournal">
+           <input
+            type="text"
+            placeholder="Title"
+            class="inputTitle"
+            name="title" required
+            >
+
+            <input
+            type="text"
+            placeholder="Tanggal"
+            class="inputTanggal"
+            name="tanggal" required
+            >
+           
+          <textarea
+            placeholder="Enter Dream Journal"
+            class="inputJournal"
+            name="journal"
+            rows="8"
+            cols="70" required
+          >
+          </textarea>
+
+          <button type="submit" id="btnCancel" onclick="closeForm()">
+            Close
+          </button>
+          <button type="submit" id="btnSave">Save</button>
+        </div>
+
+         <div class="journal-container"> 
+         </div>    
+    <script src="./app.js">
+    </script>
+  </body>
+</html>

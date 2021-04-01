@@ -1,0 +1,79 @@
+.main-head {
+  width: 95%;
+  margin: 0 0 0 auto;
+}
+
+.wrapper {
+  background: linear-gradient(
+    to left top,
+    #2b463c,
+    #416852,
+    #5f8a64,
+    #84ae74,
+    #b1d182
+  );
+  min-height: 100vh;
+  @include flex(center, center, row);
+}
+
+.page {
+  background: #e0ecde;
+  height: 100%;
+  width: 75%;
+  border-radius: 3rem;
+  margin: 5rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  h1 {
+    font-family: "Yesteryear", sans-serif;
+    font-size: 5rem;
+    color: #2b463c;
+    margin: 2rem 0rem 0rem 0rem;
+  }
+  button {
+    border: none;
+    background: #cde0c9;
+    color: white;
+    padding: 0.4rem 7rem;
+    margin: 0rem 0rem 1rem 0rem;
+    border-radius: 4rem;
+    font-family: "Kaushan Script", cursive;
+    cursor: pointer;
+  }
+}
+
+.journal-container {
+  width: 85%;
+  margin-bottom: 5rem;
+}
+
+.journal {
+  min-height: 25vh;
+  background: white;
+  margin: 2rem 0rem;
+  border-radius: 4rem;
+  padding: 1rem 2.5rem;
+  h4 {
+    padding-top: 1rem;
+    color: #6b7762;
+  }
+  p {
+    color: #b1d182;
+    padding-bottom: 2rem;
+  }
+  .trash-btn {
+    background: #fa897b;
+    color: white;
+    cursor: pointer;
+  }
+  .edit-btn {
+    font-family: "Montserrat", sans-serif;
+    margin-right: 1rem;
+    font-size: 2rem;
+  }
+  .journal-date {
+    color: rgb(187, 187, 187);
+    padding-bottom: 1rem;
+  }
+}

@@ -1,0 +1,62 @@
+.journal-popup {
+  display: none;
+  position: fixed;
+  background: #f4f1e9;
+  min-height: 45vh;
+  max-width: 60%;
+  border-radius: 2rem;
+  margin-bottom: 4rem;
+}
+
+.inputTitle {
+  max-width: 50%;
+  border: none;
+  background-color: #b1d182;
+  margin: 2rem 0rem 1rem 1.5rem;
+  padding: 0.6rem 0rem 0.6rem 1rem;
+  border-radius: 4rem;
+  color: white;
+  font-family: "Kaushan Script", cursive;
+}
+
+.inputTanggal {
+  border: none;
+  max-width: 30%;
+  margin: 2rem 0rem 1rem 1rem;
+  padding: 1rem 0rem 0.8rem 1rem;
+  border-radius: 4rem;
+  color: white;
+  background-color: rgb(180, 180, 180);
+  font-family: "Kaushan Script", cursive;
+}
+
+.inputJournal {
+  max-width: 95%;
+  border: none;
+  background-color: #b1d182;
+  padding: 1rem 1rem 1rem 2rem;
+  margin: 1.5rem 1rem 2rem 1.5rem;
+  border-radius: 2rem;
+  font-size: $text;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+
+#btnSave {
+  float: right;
+  border: none;
+  background-color: #b1d182;
+  margin: 0rem 0rem 1rem 1rem;
+  border-radius: 4rem;
+  color: white;
+  font-weight: bold;
+}
+#btnCancel {
+  float: right;
+  border: none;
+  background-color: #b1d182;
+  margin: 0rem 1.5rem 1rem 1rem;
+  border-radius: 4rem;
+  color: white;
+  font-weight: bold;
+}
